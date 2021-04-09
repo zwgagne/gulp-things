@@ -1,23 +1,21 @@
 {
-  "name": "gulp-things",
+  "name": "gulp-browsersync",
   "version": "1.0.0",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "keywords": [],
   "author": "",
   "license": "ISC",
-  "keywords": [],
-  "description": "",
-  "dependencies": {
-    "browser-sync": "^2.26.14",
-    "cssnano": "^4.1.11",
-    "g": "^2.0.1",
+  "devDependencies": {
+    "browser-sync": "^2.26.13",
+    "cssnano": "^4.1.10",
     "gulp": "^4.0.2",
-    "gulp-cli": "^2.3.0",
     "gulp-postcss": "^9.0.0",
     "gulp-sass": "^4.1.0",
-    "gulp-terser": "^2.0.1",
-    "postcss": "^8.2.9"
+    "gulp-terser": "^1.4.0",
+    "postcss": "^8.1.2"
   }
 }
